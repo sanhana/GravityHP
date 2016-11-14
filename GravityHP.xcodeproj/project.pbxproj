@@ -7,14 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0488FA481DD98308002D06FB /* KaisyagaiyouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0488FA471DD98308002D06FB /* KaisyagaiyouTableViewController.swift */; };
+		048E82C31DD94C98009BA684 /* JigyouNaiyouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E82C21DD94C98009BA684 /* JigyouNaiyouTableViewController.swift */; };
+		048E82C51DD94F3B009BA684 /* KaisyajyouhouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E82C41DD94F3B009BA684 /* KaisyajyouhouTableViewController.swift */; };
+		048E82C71DD94F57009BA684 /* SaiyoujyouhouTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048E82C61DD94F57009BA684 /* SaiyoujyouhouTableViewController.swift */; };
+		049D1E8D1DD5827700AE22F1 /* FrontTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049D1E8C1DD5827700AE22F1 /* FrontTableViewCell.swift */; };
+		049D1E8F1DD5ABF000AE22F1 /* GravityHP-004.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E8E1DD5ABF000AE22F1 /* GravityHP-004.png */; };
+		049D1E931DD5AF3800AE22F1 /* GravityHP-005.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E921DD5AF3700AE22F1 /* GravityHP-005.png */; };
+		049D1E951DD5B01500AE22F1 /* GravityHP-006.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E941DD5B01500AE22F1 /* GravityHP-006.png */; };
+		049D1E991DD5B29300AE22F1 /* GravityHP-007.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E981DD5B29300AE22F1 /* GravityHP-007.png */; };
+		049D1E9B1DD5B3FD00AE22F1 /* GravityHP-008.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E9A1DD5B3FD00AE22F1 /* GravityHP-008.png */; };
+		049D1E9D1DD5B67A00AE22F1 /* GravityHP-009.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E9C1DD5B67A00AE22F1 /* GravityHP-009.png */; };
+		049D1E9F1DD5B74400AE22F1 /* GravityHP-010.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1E9E1DD5B74400AE22F1 /* GravityHP-010.png */; };
+		049D1EA31DD5BB5A00AE22F1 /* GravityHP-011.png in Resources */ = {isa = PBXBuildFile; fileRef = 049D1EA21DD5BB5A00AE22F1 /* GravityHP-011.png */; };
 		04CA98B61DD54E94001CEF85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA98B51DD54E94001CEF85 /* AppDelegate.swift */; };
 		04CA98B81DD54E94001CEF85 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CA98B71DD54E94001CEF85 /* ViewController.swift */; };
 		04CA98BB1DD54E94001CEF85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98B91DD54E94001CEF85 /* Main.storyboard */; };
 		04CA98BD1DD54E94001CEF85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98BC1DD54E94001CEF85 /* Assets.xcassets */; };
 		04CA98C01DD54E94001CEF85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98BE1DD54E94001CEF85 /* LaunchScreen.storyboard */; };
+		04CA98DA1DD5519F001CEF85 /* GravityHP-001.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98C81DD5519F001CEF85 /* GravityHP-001.png */; };
+		04CA98DB1DD5519F001CEF85 /* GravityHP-002.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98C91DD5519F001CEF85 /* GravityHP-002.png */; };
+		04CA98DC1DD5519F001CEF85 /* GravityHP-003.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CA1DD5519F001CEF85 /* GravityHP-003.png */; };
+		04CA98DD1DD5519F001CEF85 /* GravityHP-face1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CB1DD5519F001CEF85 /* GravityHP-face1.png */; };
+		04CA98DE1DD5519F001CEF85 /* GravityHP-face2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CC1DD5519F001CEF85 /* GravityHP-face2.jpg */; };
+		04CA98DF1DD5519F001CEF85 /* GravityHP-face3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CD1DD5519F001CEF85 /* GravityHP-face3.jpg */; };
+		04CA98E01DD5519F001CEF85 /* GravityHP-face4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CE1DD5519F001CEF85 /* GravityHP-face4.jpg */; };
+		04CA98E11DD5519F001CEF85 /* GravityHP-face5.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98CF1DD5519F001CEF85 /* GravityHP-face5.png */; };
+		04CA98E21DD5519F001CEF85 /* GravityHP-face6.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D01DD5519F001CEF85 /* GravityHP-face6.png */; };
+		04CA98E31DD5519F001CEF85 /* GravityHP-face7.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D11DD5519F001CEF85 /* GravityHP-face7.png */; };
+		04CA98E41DD5519F001CEF85 /* GravityHP-face8.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D21DD5519F001CEF85 /* GravityHP-face8.png */; };
+		04CA98E51DD5519F001CEF85 /* GravityHP-face9.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D31DD5519F001CEF85 /* GravityHP-face9.png */; };
+		04CA98E61DD5519F001CEF85 /* GravityHP-face10.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D41DD5519F001CEF85 /* GravityHP-face10.png */; };
+		04CA98E71DD5519F001CEF85 /* GravityHP-face11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D51DD5519F001CEF85 /* GravityHP-face11.jpg */; };
+		04CA98E81DD5519F001CEF85 /* GravityHP-face12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D61DD5519F001CEF85 /* GravityHP-face12.jpg */; };
+		04CA98E91DD5519F001CEF85 /* logo_retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D71DD5519F001CEF85 /* logo_retina.png */; };
+		04CA98EA1DD5519F001CEF85 /* sign-e1445330982691.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D81DD5519F001CEF85 /* sign-e1445330982691.gif */; };
+		04CA98EB1DD5519F001CEF85 /* top_i-130x130.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CA98D91DD5519F001CEF85 /* top_i-130x130.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0488FA471DD98308002D06FB /* KaisyagaiyouTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaisyagaiyouTableViewController.swift; sourceTree = "<group>"; };
+		048E82C21DD94C98009BA684 /* JigyouNaiyouTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JigyouNaiyouTableViewController.swift; sourceTree = "<group>"; };
+		048E82C41DD94F3B009BA684 /* KaisyajyouhouTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaisyajyouhouTableViewController.swift; sourceTree = "<group>"; };
+		048E82C61DD94F57009BA684 /* SaiyoujyouhouTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaiyoujyouhouTableViewController.swift; sourceTree = "<group>"; };
+		049D1E8C1DD5827700AE22F1 /* FrontTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontTableViewCell.swift; sourceTree = "<group>"; };
+		049D1E8E1DD5ABF000AE22F1 /* GravityHP-004.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-004.png"; path = "images/GravityHP-004.png"; sourceTree = "<group>"; };
+		049D1E921DD5AF3700AE22F1 /* GravityHP-005.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-005.png"; path = "images/GravityHP-005.png"; sourceTree = "<group>"; };
+		049D1E941DD5B01500AE22F1 /* GravityHP-006.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-006.png"; path = "images/GravityHP-006.png"; sourceTree = "<group>"; };
+		049D1E981DD5B29300AE22F1 /* GravityHP-007.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-007.png"; path = "images/GravityHP-007.png"; sourceTree = "<group>"; };
+		049D1E9A1DD5B3FD00AE22F1 /* GravityHP-008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-008.png"; path = "images/GravityHP-008.png"; sourceTree = "<group>"; };
+		049D1E9C1DD5B67A00AE22F1 /* GravityHP-009.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-009.png"; path = "images/GravityHP-009.png"; sourceTree = "<group>"; };
+		049D1E9E1DD5B74400AE22F1 /* GravityHP-010.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-010.png"; path = "images/GravityHP-010.png"; sourceTree = "<group>"; };
+		049D1EA21DD5BB5A00AE22F1 /* GravityHP-011.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-011.png"; path = "images/GravityHP-011.png"; sourceTree = "<group>"; };
 		04CA98B21DD54E94001CEF85 /* GravityHP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GravityHP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04CA98B51DD54E94001CEF85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04CA98B71DD54E94001CEF85 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +66,24 @@
 		04CA98BC1DD54E94001CEF85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04CA98BF1DD54E94001CEF85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04CA98C11DD54E94001CEF85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CA98C81DD5519F001CEF85 /* GravityHP-001.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-001.png"; path = "images/GravityHP-001.png"; sourceTree = "<group>"; };
+		04CA98C91DD5519F001CEF85 /* GravityHP-002.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-002.png"; path = "images/GravityHP-002.png"; sourceTree = "<group>"; };
+		04CA98CA1DD5519F001CEF85 /* GravityHP-003.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-003.png"; path = "images/GravityHP-003.png"; sourceTree = "<group>"; };
+		04CA98CB1DD5519F001CEF85 /* GravityHP-face1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face1.png"; path = "images/GravityHP-face1.png"; sourceTree = "<group>"; };
+		04CA98CC1DD5519F001CEF85 /* GravityHP-face2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GravityHP-face2.jpg"; path = "images/GravityHP-face2.jpg"; sourceTree = "<group>"; };
+		04CA98CD1DD5519F001CEF85 /* GravityHP-face3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GravityHP-face3.jpg"; path = "images/GravityHP-face3.jpg"; sourceTree = "<group>"; };
+		04CA98CE1DD5519F001CEF85 /* GravityHP-face4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GravityHP-face4.jpg"; path = "images/GravityHP-face4.jpg"; sourceTree = "<group>"; };
+		04CA98CF1DD5519F001CEF85 /* GravityHP-face5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face5.png"; path = "images/GravityHP-face5.png"; sourceTree = "<group>"; };
+		04CA98D01DD5519F001CEF85 /* GravityHP-face6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face6.png"; path = "images/GravityHP-face6.png"; sourceTree = "<group>"; };
+		04CA98D11DD5519F001CEF85 /* GravityHP-face7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face7.png"; path = "images/GravityHP-face7.png"; sourceTree = "<group>"; };
+		04CA98D21DD5519F001CEF85 /* GravityHP-face8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face8.png"; path = "images/GravityHP-face8.png"; sourceTree = "<group>"; };
+		04CA98D31DD5519F001CEF85 /* GravityHP-face9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face9.png"; path = "images/GravityHP-face9.png"; sourceTree = "<group>"; };
+		04CA98D41DD5519F001CEF85 /* GravityHP-face10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "GravityHP-face10.png"; path = "images/GravityHP-face10.png"; sourceTree = "<group>"; };
+		04CA98D51DD5519F001CEF85 /* GravityHP-face11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GravityHP-face11.jpg"; path = "images/GravityHP-face11.jpg"; sourceTree = "<group>"; };
+		04CA98D61DD5519F001CEF85 /* GravityHP-face12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "GravityHP-face12.jpg"; path = "images/GravityHP-face12.jpg"; sourceTree = "<group>"; };
+		04CA98D71DD5519F001CEF85 /* logo_retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo_retina.png; path = images/logo_retina.png; sourceTree = "<group>"; };
+		04CA98D81DD5519F001CEF85 /* sign-e1445330982691.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "sign-e1445330982691.gif"; path = "images/sign-e1445330982691.gif"; sourceTree = "<group>"; };
+		04CA98D91DD5519F001CEF85 /* top_i-130x130.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "top_i-130x130.png"; path = "images/top_i-130x130.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +100,7 @@
 		04CA98A91DD54E94001CEF85 = {
 			isa = PBXGroup;
 			children = (
+				04CA98C71DD55165001CEF85 /* Images */,
 				04CA98B41DD54E94001CEF85 /* GravityHP */,
 				04CA98B31DD54E94001CEF85 /* Products */,
 			);
@@ -60,8 +123,46 @@
 				04CA98BC1DD54E94001CEF85 /* Assets.xcassets */,
 				04CA98BE1DD54E94001CEF85 /* LaunchScreen.storyboard */,
 				04CA98C11DD54E94001CEF85 /* Info.plist */,
+				049D1E8C1DD5827700AE22F1 /* FrontTableViewCell.swift */,
+				048E82C21DD94C98009BA684 /* JigyouNaiyouTableViewController.swift */,
+				048E82C41DD94F3B009BA684 /* KaisyajyouhouTableViewController.swift */,
+				048E82C61DD94F57009BA684 /* SaiyoujyouhouTableViewController.swift */,
+				0488FA471DD98308002D06FB /* KaisyagaiyouTableViewController.swift */,
 			);
 			path = GravityHP;
+			sourceTree = "<group>";
+		};
+		04CA98C71DD55165001CEF85 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				049D1EA21DD5BB5A00AE22F1 /* GravityHP-011.png */,
+				049D1E9E1DD5B74400AE22F1 /* GravityHP-010.png */,
+				04CA98C81DD5519F001CEF85 /* GravityHP-001.png */,
+				04CA98C91DD5519F001CEF85 /* GravityHP-002.png */,
+				04CA98CA1DD5519F001CEF85 /* GravityHP-003.png */,
+				049D1E8E1DD5ABF000AE22F1 /* GravityHP-004.png */,
+				049D1E921DD5AF3700AE22F1 /* GravityHP-005.png */,
+				049D1E941DD5B01500AE22F1 /* GravityHP-006.png */,
+				049D1E981DD5B29300AE22F1 /* GravityHP-007.png */,
+				049D1E9A1DD5B3FD00AE22F1 /* GravityHP-008.png */,
+				049D1E9C1DD5B67A00AE22F1 /* GravityHP-009.png */,
+				04CA98CB1DD5519F001CEF85 /* GravityHP-face1.png */,
+				04CA98CC1DD5519F001CEF85 /* GravityHP-face2.jpg */,
+				04CA98CD1DD5519F001CEF85 /* GravityHP-face3.jpg */,
+				04CA98CE1DD5519F001CEF85 /* GravityHP-face4.jpg */,
+				04CA98CF1DD5519F001CEF85 /* GravityHP-face5.png */,
+				04CA98D01DD5519F001CEF85 /* GravityHP-face6.png */,
+				04CA98D11DD5519F001CEF85 /* GravityHP-face7.png */,
+				04CA98D21DD5519F001CEF85 /* GravityHP-face8.png */,
+				04CA98D31DD5519F001CEF85 /* GravityHP-face9.png */,
+				04CA98D41DD5519F001CEF85 /* GravityHP-face10.png */,
+				04CA98D51DD5519F001CEF85 /* GravityHP-face11.jpg */,
+				04CA98D61DD5519F001CEF85 /* GravityHP-face12.jpg */,
+				04CA98D71DD5519F001CEF85 /* logo_retina.png */,
+				04CA98D81DD5519F001CEF85 /* sign-e1445330982691.gif */,
+				04CA98D91DD5519F001CEF85 /* top_i-130x130.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,10 +193,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
-				ORGANIZATIONNAME = "SIJI MOON";
+				ORGANIZATIONNAME = "younghwan moon";
 				TargetAttributes = {
 					04CA98B11DD54E94001CEF85 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2GP4M3XF7S;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -123,9 +225,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049D1E9F1DD5B74400AE22F1 /* GravityHP-010.png in Resources */,
+				04CA98DA1DD5519F001CEF85 /* GravityHP-001.png in Resources */,
+				04CA98EA1DD5519F001CEF85 /* sign-e1445330982691.gif in Resources */,
 				04CA98C01DD54E94001CEF85 /* LaunchScreen.storyboard in Resources */,
+				049D1E991DD5B29300AE22F1 /* GravityHP-007.png in Resources */,
+				049D1E931DD5AF3800AE22F1 /* GravityHP-005.png in Resources */,
+				049D1E9D1DD5B67A00AE22F1 /* GravityHP-009.png in Resources */,
+				049D1E8F1DD5ABF000AE22F1 /* GravityHP-004.png in Resources */,
+				049D1E951DD5B01500AE22F1 /* GravityHP-006.png in Resources */,
+				04CA98E61DD5519F001CEF85 /* GravityHP-face10.png in Resources */,
+				04CA98DC1DD5519F001CEF85 /* GravityHP-003.png in Resources */,
+				049D1E9B1DD5B3FD00AE22F1 /* GravityHP-008.png in Resources */,
+				04CA98E11DD5519F001CEF85 /* GravityHP-face5.png in Resources */,
+				04CA98E41DD5519F001CEF85 /* GravityHP-face8.png in Resources */,
+				04CA98E91DD5519F001CEF85 /* logo_retina.png in Resources */,
+				049D1EA31DD5BB5A00AE22F1 /* GravityHP-011.png in Resources */,
+				04CA98E31DD5519F001CEF85 /* GravityHP-face7.png in Resources */,
+				04CA98E71DD5519F001CEF85 /* GravityHP-face11.jpg in Resources */,
 				04CA98BD1DD54E94001CEF85 /* Assets.xcassets in Resources */,
+				04CA98E01DD5519F001CEF85 /* GravityHP-face4.jpg in Resources */,
+				04CA98E21DD5519F001CEF85 /* GravityHP-face6.png in Resources */,
+				04CA98E51DD5519F001CEF85 /* GravityHP-face9.png in Resources */,
+				04CA98DD1DD5519F001CEF85 /* GravityHP-face1.png in Resources */,
+				04CA98DB1DD5519F001CEF85 /* GravityHP-002.png in Resources */,
+				04CA98DF1DD5519F001CEF85 /* GravityHP-face3.jpg in Resources */,
+				04CA98DE1DD5519F001CEF85 /* GravityHP-face2.jpg in Resources */,
+				04CA98E81DD5519F001CEF85 /* GravityHP-face12.jpg in Resources */,
 				04CA98BB1DD54E94001CEF85 /* Main.storyboard in Resources */,
+				04CA98EB1DD5519F001CEF85 /* top_i-130x130.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				04CA98B81DD54E94001CEF85 /* ViewController.swift in Sources */,
+				048E82C51DD94F3B009BA684 /* KaisyajyouhouTableViewController.swift in Sources */,
+				049D1E8D1DD5827700AE22F1 /* FrontTableViewCell.swift in Sources */,
+				048E82C71DD94F57009BA684 /* SaiyoujyouhouTableViewController.swift in Sources */,
 				04CA98B61DD54E94001CEF85 /* AppDelegate.swift in Sources */,
+				048E82C31DD94C98009BA684 /* JigyouNaiyouTableViewController.swift in Sources */,
+				0488FA481DD98308002D06FB /* KaisyagaiyouTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -247,7 +380,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -260,9 +393,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GP4M3XF7S;
 				INFOPLIST_FILE = GravityHP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = youngmoon.GravityHP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgoplay.GravityHP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -272,9 +406,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GP4M3XF7S;
 				INFOPLIST_FILE = GravityHP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = youngmoon.GravityHP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jgoplay.GravityHP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -290,7 +425,7 @@
 				04CA98C31DD54E94001CEF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		04CA98C41DD54E94001CEF85 /* Build configuration list for PBXNativeTarget "GravityHP" */ = {
 			isa = XCConfigurationList;
@@ -299,6 +434,7 @@
 				04CA98C61DD54E94001CEF85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
