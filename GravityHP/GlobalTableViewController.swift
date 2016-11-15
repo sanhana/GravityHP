@@ -1,14 +1,14 @@
 //
-//  KaisyagaiyouTableViewController.swift
+//  GlobalTableViewController.swift
 //  GravityHP
 //
-//  Created by SIJI MOON on 14/11/2016.
+//  Created by SIJI MOON on 15/11/2016.
 //  Copyright © 2016 younghwan moon. All rights reserved.
 //
 
 import UIKit
 
-class KaisyagaiyouTableViewController: UITableViewController {
+class GlobalTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,7 +34,7 @@ class KaisyagaiyouTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return 1
     }
 
 
@@ -42,11 +42,11 @@ class KaisyagaiyouTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
 
         // Configure the cell...
+        cell.imageView?.image = UIImage(named: "mapWorld")
 
         return cell
     }
 
-    
     @IBAction func backToFront(_ sender: UIBarButtonItem) {
         self.dismiss(animated: true, completion: nil)
     }

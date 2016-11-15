@@ -1,17 +1,17 @@
 //
-//  FrontTableViewCell.swift
+//  Button1TableViewCell.swift
 //  GravityHP
 //
-//  Created by SIJI MOON on 11/11/2016.
+//  Created by SIJI MOON on 14/11/2016.
 //  Copyright © 2016 younghwan moon. All rights reserved.
 //
 
 import UIKit
 
-class FrontTableViewCell: UITableViewCell {
-    
-    @IBOutlet weak var frontImageView: UIImageView!
+class Button1TableViewCell: UITableViewCell {
 
+    @IBOutlet weak var Button1ImageView: UIImageView!
+    
     @IBOutlet weak var AnyButton1: UIButton!
 
     override func awakeFromNib() {
